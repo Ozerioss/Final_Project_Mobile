@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    card_view:cardCornerRadius="4px"
+    card_view:cardElevation="4px"
+    card_view:cardUseCompatPadding="true" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.DeviceDefault.Large"
+            tools:text="Title"
+            />
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
+            tools:text="Description"
+            />
+
+        <TextView
+            android:id="@+id/publishedAtTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
+            tools:text="Date of publication"
+            />
+
+        <TextView
+            android:id="@+id/channelTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
+            tools:text="Author"
+            />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
